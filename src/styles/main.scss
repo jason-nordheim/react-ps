@@ -14,17 +14,15 @@ body {
 .app {
     header {
         display: flex;
-        padding: 0 1.5rem;
+        padding: 0
+            1.5rem;
         justify-content: space-between;
         align-items: center;
         background: #6700ee;
 
-
-
         .logo {
             color: gold;
         }
-
 
         nav {
             ul {
@@ -33,7 +31,8 @@ body {
                 li {
                     color: white;
                     a {
-                        margin: 0 1rem;
+                        margin: 0
+                            1rem;
                         text-decoration: none;
                         font-variant: small-caps;
                         color: inherit;
@@ -41,8 +40,6 @@ body {
                 }
             }
         }
-
-
 
         .social {
             display: none;
@@ -52,10 +49,8 @@ body {
         }
     }
 
-
-    
     .hero {
-        background: #6E00FF;
+        background: #6e00ff;
         height: 70vh;
     }
 }
